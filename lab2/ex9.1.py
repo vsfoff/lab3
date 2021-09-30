@@ -1,4 +1,4 @@
-m_list = set()
+m_list = set()  # множества
 m = int(input('kol-vo knig h:'))
 n_list = set()
 n = int(input('kol-vo knig s:'))
