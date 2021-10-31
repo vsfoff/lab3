@@ -6,11 +6,12 @@ true = 0
 
 for i in range(n):
     s = input()
-    price, amount, cost = int(s[:7]), int(s[8:12]), int(s[13:])
+    price = int(s[:7])
+    amount = int(s[8:12])
+    cost = int(s[13:])
     if price * amount != cost:
         error.append(i + 1)
     true += price * amount
 print(total - true)
 for x in error:
     print(x, end=' ')
-
