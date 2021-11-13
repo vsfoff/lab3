@@ -10,6 +10,4 @@ def month_name(num, lang):
 
 
 if __name__ == '__main__':
-    num = int(input())
-    lang = input()
-    month_name(num, lang)
+    month_name(int(input()), input())
