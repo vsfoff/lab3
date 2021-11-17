@@ -6,6 +6,6 @@ def defractalize(fractal):
 if __name__ == '__main__':
     a = [input(), input()]
     a.append(a)
-    a.append(3)
+    a.append(input('add: '))
     a.append(a)
     defractalize(a)
